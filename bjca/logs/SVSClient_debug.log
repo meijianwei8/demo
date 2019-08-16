@@ -1,0 +1,91 @@
+DEBUG  [2019-06-26 10:05:05 409] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@723279cf
+DEBUG  [2019-06-26 10:05:05 471] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@1698c449
+DEBUG  [2019-06-26 10:05:05 530] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@5ef04b5
+DEBUG  [2019-06-26 10:05:05 588] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@5f4da5c3
+DEBUG  [2019-06-26 10:05:05 646] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@443b7951
+DEBUG  [2019-06-26 10:05:05 705] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@14514713
+DEBUG  [2019-06-26 10:05:05 765] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@69663380
+DEBUG  [2019-06-26 10:05:05 822] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@5b37e0d2
+DEBUG  [2019-06-26 10:05:05 881] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@4459eb14
+DEBUG  [2019-06-26 10:05:05 939] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@5a2e4553
+DEBUG  [2019-06-26 10:05:05 941] Timer-0 The total number of wrong connection == 0
+DEBUG  [2019-06-26 10:05:05 943] Timer-0 The error connection is zero !
+DEBUG  [2019-06-26 10:05:05 968] Timer-1 The free connection number is == 9
+DEBUG  [2019-06-26 10:05:05 968] Timer-1 The error connection number is == 0
+DEBUG  [2019-06-26 10:05:05 968] Timer-1 The usedConnNum connection number is == 1
+DEBUG  [2019-06-26 10:05:05 994] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@2328c243
+DEBUG  [2019-06-26 10:05:06 47] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@bebdb06
+DEBUG  [2019-06-26 10:05:06 89] Timer-1 Get connection error!!!
+DEBUG  [2019-06-26 10:05:06 89] Timer-1 java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+DEBUG  [2019-06-26 10:05:06 92] Timer-1 Get connection error!!!
+DEBUG  [2019-06-26 10:05:06 92] Timer-1 java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+DEBUG  [2019-06-26 10:05:06 92] Timer-1 Get connection error!!!
+DEBUG  [2019-06-26 10:05:06 92] Timer-1 java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+DEBUG  [2019-06-26 10:05:06 93] Timer-1 Get connection error!!!
+DEBUG  [2019-06-26 10:05:06 93] Timer-1 java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+DEBUG  [2019-06-26 10:05:06 94] Timer-1 Get connection error!!!
+DEBUG  [2019-06-26 10:05:06 94] Timer-1 java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+DEBUG  [2019-06-26 10:05:06 99] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@7a4f0f29
+DEBUG  [2019-06-26 10:05:06 151] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@45283ce2
+DEBUG  [2019-06-26 10:05:06 204] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@2077d4de
+DEBUG  [2019-06-26 10:05:06 256] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@7591083d
+DEBUG  [2019-06-26 10:05:06 309] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@77a567e1
+DEBUG  [2019-06-26 10:05:06 361] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@736e9adb
+DEBUG  [2019-06-26 10:05:06 412] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@6d21714c
+DEBUG  [2019-06-26 10:05:06 464] main Create new connection result == cn.org.bjca.client.framework.connection.Connection@108c4c35
+DEBUG  [2019-06-26 10:05:06 467] main The free connection number is == 9
+DEBUG  [2019-06-26 10:05:06 467] main The error connection number is == 0
+DEBUG  [2019-06-26 10:05:06 467] main The usedConnNum connection number is == 1
+DEBUG  [2019-06-26 10:05:06 468] Timer-3 The total number of wrong connection == 0
+DEBUG  [2019-06-26 10:05:06 468] Timer-3 The error connection is zero !
+DEBUG  [2019-06-26 10:05:06 606] main The free connection number is == 9
+DEBUG  [2019-06-26 10:05:06 606] main The error connection number is == 0
+DEBUG  [2019-06-26 10:05:06 606] main The usedConnNum connection number is == 1
+DEBUG  [2019-06-26 10:05:06 722] main The free connection number is == 9
+DEBUG  [2019-06-26 10:05:06 722] main The error connection number is == 0
+DEBUG  [2019-06-26 10:05:06 723] main The usedConnNum connection number is == 1

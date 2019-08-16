@@ -1,0 +1,56 @@
+INFO   [2019-06-26 10:05:06 91] Get connection error!!!
+INFO   [2019-06-26 10:05:06 91] java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+INFO   [2019-06-26 10:05:06 92] Get connection error!!!
+INFO   [2019-06-26 10:05:06 92] java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+INFO   [2019-06-26 10:05:06 93] Get connection error!!!
+INFO   [2019-06-26 10:05:06 93] java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+INFO   [2019-06-26 10:05:06 93] Get connection error!!!
+INFO   [2019-06-26 10:05:06 93] java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+INFO   [2019-06-26 10:05:06 94] Get connection error!!!
+INFO   [2019-06-26 10:05:06 94] java.lang.NullPointerException
+	at cn.org.bjca.client.framework.transport.TransportTool.writeAndReadMessage(TransportTool.java:57)
+	at cn.org.bjca.client.framework.transport.TransportTool.dealMessageForTSS(TransportTool.java:36)
+	at cn.org.bjca.client.security.SecurityEngine.getActiveThreadNum(SecurityEngine.java:2392)
+	at cn.org.bjca.client.security.DefaultSecurityEngineDeal.getActiveThreadNum(DefaultSecurityEngineDeal.java:908)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool.heatbeat(SVSConnectionPool.java:80)
+	at cn.org.bjca.client.framework.connectionpool.SVSConnectionPool$2.run(SVSConnectionPool.java:115)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+INFO   [2019-06-26 10:05:06 94] heatbeat error !cn.org.bjca.client.exceptions.SVSConnectException: exchange data with server error

@@ -1,0 +1,53 @@
+plugins {
+    id 'org.asciidoctor.convert' version '1.5.3'
+    id 'org.springframework.boot' version '2.1.5.RELEASE'
+    id 'groovy'
+//    id 'java'
+}
+
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    maven{
+        url 'http://maven.aliyun.com/nexus/content/groups/public'
+    }
+}
+
+ext {
+    set('snippetsDir', file("build/generated-snippets"))
+}
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-quartz'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '2.1.0'
+    implementation fileTree(dir:'libs',includes: ['*.jar'])
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+//    implementation group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.5.7'
+    implementation group: 'org.codehaus.groovy', name: 'groovy-jsr223', version: '2.5.7'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation 'org.codehaus.groovy:groovy:2.5.7'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.58'
+//    compile group: 'com.alibaba.boot', name: 'dubbo-spring-boot-starter', version: '0.1.2.RELEASE'
+
+
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc'
+}
+
+test {
+    outputs.dir snippetsDir
+}
+
+asciidoctor {
+    inputs.dir snippetsDir
+    dependsOn test
+}

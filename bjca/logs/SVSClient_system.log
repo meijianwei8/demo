@@ -1,0 +1,101 @@
+INFO   [2019-06-26 10:05:05 412] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 412] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 412] The free connection number is == 1
+INFO   [2019-06-26 10:05:05 412] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 412] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 471] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 471] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 471] The free connection number is == 2
+INFO   [2019-06-26 10:05:05 471] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 471] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 530] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 530] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 530] The free connection number is == 3
+INFO   [2019-06-26 10:05:05 530] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 530] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 588] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 588] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 588] The free connection number is == 4
+INFO   [2019-06-26 10:05:05 588] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 589] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 647] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 647] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 647] The free connection number is == 5
+INFO   [2019-06-26 10:05:05 647] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 647] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 705] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 705] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 705] The free connection number is == 6
+INFO   [2019-06-26 10:05:05 705] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 705] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 765] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 765] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 765] The free connection number is == 7
+INFO   [2019-06-26 10:05:05 765] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 765] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 823] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 823] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 823] The free connection number is == 8
+INFO   [2019-06-26 10:05:05 823] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 823] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 881] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 881] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 881] The free connection number is == 9
+INFO   [2019-06-26 10:05:05 881] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 881] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 940] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 940] Create new connection success ! The address is 60.247.77.101:8000
+INFO   [2019-06-26 10:05:05 940] The free connection number is == 10
+INFO   [2019-06-26 10:05:05 940] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 940] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:05 994] -------------------------------------------------------
+INFO   [2019-06-26 10:05:05 994] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:05 995] The free connection number is == 1
+INFO   [2019-06-26 10:05:05 995] The error connection number is == 0
+INFO   [2019-06-26 10:05:05 995] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 47] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 47] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 48] The free connection number is == 2
+INFO   [2019-06-26 10:05:06 48] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 48] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 99] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 99] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 99] The free connection number is == 3
+INFO   [2019-06-26 10:05:06 99] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 99] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 151] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 151] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 151] The free connection number is == 4
+INFO   [2019-06-26 10:05:06 151] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 151] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 204] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 204] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 205] The free connection number is == 5
+INFO   [2019-06-26 10:05:06 205] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 205] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 256] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 256] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 256] The free connection number is == 6
+INFO   [2019-06-26 10:05:06 256] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 256] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 309] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 309] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 309] The free connection number is == 7
+INFO   [2019-06-26 10:05:06 309] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 309] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 361] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 361] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 361] The free connection number is == 8
+INFO   [2019-06-26 10:05:06 361] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 361] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 412] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 412] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 412] The free connection number is == 9
+INFO   [2019-06-26 10:05:06 412] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 412] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 464] -------------------------------------------------------
+INFO   [2019-06-26 10:05:06 464] Create new connection success ! The address is 60.247.77.109:8000
+INFO   [2019-06-26 10:05:06 467] The free connection number is == 10
+INFO   [2019-06-26 10:05:06 467] The error connection number is == 0
+INFO   [2019-06-26 10:05:06 467] The usedConnNum connection number is == 0
+INFO   [2019-06-26 10:05:06 467] BJCA Client Version:1.8.0 build201611141700

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration> <!-- 数据库驱动:选择你的本地硬盘上面的数据库驱动包 -->
+    <classPathEntry
+            location="C:\Users\meijianwei\.m2\repository\com\oracle\ojdbc6\11.2.0.3\ojdbc6-11.2.0.3.jar"/>
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <commentGenerator>
+            <property name="suppressDate" value="true"/> <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator> <!--数据库链接URL，用户名、密码 -->
+        <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
+                        connectionURL="jdbc:oracle:thin:@10.158.5.202:1521/xthis"
+                        userId="emrhis_sc" password="123456">
+        </jdbcConnection>
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver> <!-- 生成模型的包名和位置 -->
+        <javaModelGenerator
+                targetPackage="com.cdxt.emrqcs.pojo"
+                targetProject="D:\Code\EMR编辑器\5项目编码\1源代码\cdxtemr-java\cdxtEMR\cdxtEMR-api\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator> <!-- 生成映射文件的包名和位置 -->
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="D:\Code\EMR编辑器\5项目编码\1源代码\cdxtemr-java\cdxtEMR\cdxtEMR-QCS-service\src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator> <!-- 生成DAO的包名和位置 -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.cdxt.emrqcs.dao"
+                             targetProject="D:\Code\EMR编辑器\5项目编码\1源代码\cdxtemr-java\cdxtEMR\cdxtEMR-QCS-service\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator> <!-- 要生成的表 tableName是数据库中的表名或视图名 domainObjectName是实体类名 -->
+
+        <table tableName="EMR_QCS_TIME_LIMIT_ITEM" domainObjectName="TimeLimitRule"
+               enableDeleteByExample="false"  enableCountByExample="false"
+               enableUpdateByExample="false" enableSelectByExample="false"
+               selectByExampleQueryId="false"/>
+
+        <!--   <table tableName="EMR_QCS_TIME_LIMIT_FREQ_RULE" domainObjectName="TimeLimitFreqRule"
+                enableDeleteByExample="false"  enableCountByExample="false"
+                enableUpdateByExample="false" enableSelectByExample="false"
+                selectByExampleQueryId="false"/>
+         <table tableName="EMR_QCS_TIME_LIMIT_CONT_NODE" domainObjectName="TimeLimitContentNode"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false"/>
+
+          <table tableName="EMR_QCS_TIME_LIMIT_CONT_RULE" domainObjectName="TimeLimitContentRule"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false"/>
+
+          <table tableName="EMR_QCS_TIME_LIMIT_RESULT" domainObjectName="TimeLimitResult"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false"/>
+
+          <table tableName="EMR_QCS_TIME_LIMIT_GROUP_DTL" domainObjectName="TimeLimitGroupDetail"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false"/>
+
+          <table tableName="EMR_QCS_TIME_LIMIT_GROUP" domainObjectName="TimeLimitGroup"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false">
+          </table>
+
+          <table tableName="EMR_QCS_TIME_LIMIT_SCRIPT" domainObjectName="TimeLimitScript"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false" />
+
+          <table tableName="EMR_QCS_PATIENT_STATE" domainObjectName="PatientStateInfo"
+                 enableDeleteByExample="false"  enableCountByExample="false"
+                 enableUpdateByExample="false" enableSelectByExample="false"
+                 selectByExampleQueryId="false" />
+
+          <table tableName="EMR_QCS_TIME_LIMIT_CFG" domainObjectName="TimeLimitCfg"
+                  enableDeleteByExample="false"  enableCountByExample="false"
+                  enableUpdateByExample="false" enableSelectByExample="false"
+                  selectByExampleQueryId="false"/>
+
+            -->
+    </context>
+</generatorConfiguration>
